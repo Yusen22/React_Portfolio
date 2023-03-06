@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Header.css";
+
 
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
@@ -11,4 +11,4 @@ function Homepage() {
   );
 }
 
-export default Header;
+export default Homepage;
