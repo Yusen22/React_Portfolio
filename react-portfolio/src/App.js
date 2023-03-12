@@ -1,24 +1,24 @@
 
 import './App.css';
-import Homepage from './components/Homepage'
+import Homepage from './components/HomePage/Homepage'
 import ProjectPage from './components/ProjectPage';
 import Contact from './components/Contact'
 import { Route, Routes } from 'react-router-dom';
 import Project from './components/Project';
-import Header from './components/Header'
+import Header from './components/Header/Header'
 
 function App() {
   return (
     <>
-   
-        <Header/>
-        <Routes>
-          <Route path="/" element= {<Homepage/>}/>
-          <Route path="projects" element= {<ProjectPage/>}/>
-          <Route path="contact" element= {<Contact/>}/>
-        </Routes>
-        
-    
+
+      <Header />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="projects" element={<ProjectPage />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
+
+
     </>
 
   );
