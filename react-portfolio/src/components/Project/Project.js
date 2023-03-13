@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Project(props) {
     const { name, description, deployedLink, repoLink, screenshotLink } = props
   return (
-    <div className="card project-card">
+    <div className="card project-card w-sm-50">
     <img src={ screenshotLink } className="card-img-top" alt= { name }/>
     <div className="card-body">
       <h5 className="card-title">{ name } </h5>
