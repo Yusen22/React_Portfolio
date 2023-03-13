@@ -16,7 +16,7 @@ function Header() {
     
     return (
         <header className="page-header">
-            <nav className="navbar justify-content-xs-start justify-content-sm-around navbar-expand-lg">
+            <nav className="navbar justify-content-xs-start justify-content-sm-around navbar-expand-lg sticky-top">
                 <Link className="navbar-brand " to="/">
                     <div className="mainTitle d-md-flex h-100 w-100">
                         <h1 className="text-xs-center text-sm-center text-md-left mx-sm-0 ml-md-5 d-none d-sm-block" id="nameTitle">Elijah Wilsher</h1>
