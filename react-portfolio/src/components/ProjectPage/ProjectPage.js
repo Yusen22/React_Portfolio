@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import Header from "./Header";
 import Project from "../Project/Project";
 import Container from "../Container/index"
-import projects from "../../projects.json"
+import projects from "../../projects.js"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ProjectPage.css'
 
@@ -17,7 +17,7 @@ function ProjectPage() {
       <h1 id="projects-title">Projects</h1>
 
       {projects.map((project, index) => {
-
+        // const image = require(screenshotLink)
 
         return (
 
@@ -27,7 +27,7 @@ function ProjectPage() {
             description={project.description}
             deployedLink={project.deployedApp}
             repoLink={project.githubRepo}
-            screenshotLink={project.screenshot} />
+            screenshot={project.screenshot} />
         );
       })}
 
