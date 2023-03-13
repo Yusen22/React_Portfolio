@@ -1,9 +1,9 @@
 .navbar {
-    background-color: rgb(61, 61, 61) !important;
+    background-color: #00121f !important;
     display: flex;
-    justify-content: space-around;
-    padding: 20px 0 !important;
-    
+
+    padding: 20px 5% 20px 5% !important;
+
 }
 
 .navbar-brand {
@@ -15,7 +15,8 @@
     justify-content: center;
     align-items: baseline;
     color: white !important;
- 
+    /* margin-left: 10%; */
+
 
 }
 
@@ -23,12 +24,13 @@
     text-transform: uppercase;
     display: flex;
     margin-bottom: 0 !important;
-    text-align:center
-    
+    text-align: center
 }
 
+
+
 .mainTitle h2 {
-    font-size: 110%;
+    font-size: 100%;
     margin-bottom: 0 !important;
     text-align: center;
 }
@@ -40,10 +42,10 @@
 }
 
 #navbarNav {
-   
+
     justify-content: flex-end;
-    margin-right: 3%;
-    
+    margin-left: 3%;
+
 }
 
 .nav-item {
@@ -54,10 +56,20 @@
 
 .nav-link {
     color: white !important;
-    
+
 }
 
 .navbar-toggler {
-    position: absolute;
+    border-radius: 90%;
+    text-align: center;
     right: 5%;
+    background-color: #F7CACA;
+
+}
+
+@media screen and (max-width: 575px) {
+    #mobile-brand {
+        margin-left: 4.2vw;
+        font-family: 'Grand Hotel', cursive;
+    }
 }
