@@ -53,7 +53,7 @@ letter-spacing: 0.1rem;
 
 #form-section {
     background-color: rgb(250, 201, 201);
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

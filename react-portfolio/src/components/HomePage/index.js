@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from 'react-router-dom'
 import "./style.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
+import ProfileImage from '../../images/profileimage.png'
 
 
 function Homepage() {
 
   const jumboImage = require('../../images/layered-waves-haikei.png')
-  const profImage = require('../../images/profileimage.png')
+
   // Image generated with https://app.haikei.app/
 
   return (
@@ -19,11 +20,11 @@ function Homepage() {
           <div className="col-xs-12 col-sm-6">
             <div className="profile-text d-flex flex-column">
               <h2 id="prof-title">My name is Elijah.</h2>
-              <h3 className="" id="prof-statement">I design intuitive, user-focused applications for the web</h3>
+              <h3 className="" id="prof-statement">I design intuitive, user-focused applications for the web, and can help you create an online hub for your business.</h3>
             </div>
           </div>
-          <div className="col-xs-12 col-sm-6">
-           
+          <div className="prof-image-section col-xs-12 col-sm-6">
+           <img id="profile-image" src={ProfileImage} className="d-xs-none"/>
           </div>
         </div>
       </div>

@@ -16,16 +16,6 @@
 
 }
 
-#prof-img {
-    border-radius: 50%;
-    min-width: 180px;
-    object-fit: cover;
-    object-position: 24% 24%;
-
-    margin: 0 auto;
-    box-shadow: 0 8px 10px rgb(250, 201, 201);
-    /* border: 10px solid #1a0810; */
-}
 
 .profile-text {
     text-align: center;
@@ -52,6 +42,17 @@
     background-color: #00121f;
     font-family: 'Lilita One', cursive;
 
+}
+
+.prof-image-section {
+    display: flex;
+    justify-content: center;
+}
+
+#profile-image {
+    height: 400px;
+    border-radius: 30px;
+    
 }
 
 #whereto-section {
@@ -81,5 +82,10 @@
 
     .navbar-nav {
         width: 200px !important
+    }
+    
+    #profile-image {
+        display: none;
+        
     }
 }
