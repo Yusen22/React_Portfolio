@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import "./Homepage.css"
+import "./style.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-
-// By importing the Header.css file, it is added to the DOM whenever this component loads
 
 function Homepage() {
 
@@ -13,15 +11,19 @@ function Homepage() {
   // Image generated with https://app.haikei.app/
 
   return (
-    <>
+    <div style={{ backgroundColor: '#00121f' }}>
       <div class="jumbotron jumbotron-fluid">
 
         <img className="w-100 h-100" id="jumbo-img" src={jumboImage} alt='layered_waves' />
         <div className="h-100 d-flex flex-wrap justify-content-around align-items-center" id="jumbo-info">
-          <img className="w-xs-50 w-25" id="prof-img" src={profImage} />
-          <div className="profile-text d-flex flex-column">
-            <h2 id="prof-title">Welcome to my portfolio.</h2>
-            <h3 className="" id="prof-statement">Designing intuitive, user-focused applications for the web</h3>
+          <div className="col-xs-12 col-sm-6">
+            <div className="profile-text d-flex flex-column">
+              <h2 id="prof-title">My name is Elijah.</h2>
+              <h3 className="" id="prof-statement">I design intuitive, user-focused applications for the web</h3>
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-6">
+           
           </div>
         </div>
       </div>
@@ -36,7 +38,7 @@ function Homepage() {
           </button>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 

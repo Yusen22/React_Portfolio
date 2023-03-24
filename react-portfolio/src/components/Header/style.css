@@ -1,13 +1,18 @@
 .navbar {
-    background-color: #00121f !important;
+    background-color: #061e2f !important;
     display: flex;
 
     padding: 20px 5% 20px 5% !important;
 
 }
 
-.navbar-brand {
+.navbar-brand .mainTitle {
     margin-right: 0;
+    transition: all 0.3s ease-out;
+}
+
+.navbar-brand .mainTitle:hover {
+    transform: scale(1.01);
 }
 
 .mainTitle {
@@ -17,22 +22,32 @@
     color: white !important;
     /* margin-left: 10%; */
 
-
 }
+
+
+
 
 .mainTitle h1 {
     text-transform: uppercase;
     display: flex;
     margin-bottom: 0 !important;
-    text-align: center
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
 }
 
 
 
-.mainTitle h2 {
+#jobTitle {
     font-size: 100%;
     margin-bottom: 0 !important;
     text-align: center;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Dosis', sans-serif;
+}
+
+.title-hover:hover {
+    color: #F7CACA;
+    transform: scale(1.01);
 }
 
 #title-slash {
@@ -49,14 +64,23 @@
 }
 
 .nav-item {
-    margin: 0 30px;
+    margin: 0 25px;
     text-transform: uppercase;
     font-size: 110%;
+    letter-spacing: 0.3rem;
+   
+    font-family: 'Abel', sans-serif;
+
 }
 
 .nav-link {
     color: white !important;
+    font-weight: 500;
 
+}
+
+.nav-link:hover {
+    color:#F7CACA !important
 }
 
 .navbar-toggler {
@@ -70,6 +94,7 @@
 @media screen and (max-width: 575px) {
     #mobile-brand {
         margin-left: 4.2vw;
-        font-family: 'Grand Hotel', cursive;
+        font-family: 'Dosis', cursive;
+        font-size: 200%;
     }
 }
