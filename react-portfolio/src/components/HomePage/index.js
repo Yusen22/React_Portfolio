@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom'
 import "./style.css"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import ProfileImage from '../../images/profileimage.png'
+import Skills from '../Skills'
+
 
 
 function Homepage() {
 
+  
   const jumboImage = require('../../images/layered-waves-haikei.png')
 
   // Image generated with https://app.haikei.app/
@@ -28,6 +31,7 @@ function Homepage() {
           </div>
         </div>
       </div>
+      <Skills/>
       <section className="w-100 d-flex flex-column justify-content-center align-items-around" id="whereto-section">
         <h3>Where do you want to go?</h3>
         <div id="whereto-buttons">
@@ -39,6 +43,7 @@ function Homepage() {
           </button>
         </div>
       </section>
+      
     </div>
   );
 }

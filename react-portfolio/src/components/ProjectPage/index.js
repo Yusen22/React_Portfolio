@@ -24,6 +24,7 @@ function ProjectPage() {
           <Project
             key={index}
             name={project.name}
+            techs={project.skills}
             description={project.description}
             deployedLink={project.deployedApp}
             repoLink={project.githubRepo}

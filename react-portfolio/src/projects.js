@@ -2,6 +2,7 @@ const exportedObj = [
   {
     "name": "Password Generator",
     "description": "Randomly generate a password based on user's choice of character type",
+    "skills": "",
     "githubRepo": "https://github.com/Yusen22/Password_Generator",
     "deployedApp": "https://yusen22.github.io/Password_Generator/",
     "screenshot": require("./images/password-generator-screenshot.png")
@@ -18,6 +19,7 @@ const exportedObj = [
   {
     "name": "YouTrip Holiday Planner",
     "description": "Take a personality quiz and get matched with your ideal getaway",
+    "skills": "",
     "githubRepo": "https://github.com/ionb23/YouTrip",
     "deployedApp": "https://ionb23.github.io/YouTrip/",
     "screenshot": require("./images/youtrip-screenshot.png")
@@ -26,6 +28,7 @@ const exportedObj = [
   {
     "name": "Weather Forecast Application",
     "description": "View a 5-day weather forecast for a chosen city, and save previous searches for future use",
+    "skills": "",
     "githubRepo": "https://github.com/Yusen22/5_Day_Weather_Application",
     "deployedApp": "https://yusen22.github.io/5_Day_Weather_Application/",
     "screenshot": require("./images/5_day_weather_app_screenshot.png")
@@ -34,6 +37,7 @@ const exportedObj = [
   {
     "name": "Command Line README Generator",
     "description": "Use a command-line interface to generate a professional README for a repository",
+    "skills": "Node.js, inquirer npm, Javascript",
     "githubRepo": "https://github.com/Yusen22/Command_Line_README_Generator",
     "deployedApp": "N/A",
     "screenshot": require("./images/README_Generator.png")
@@ -42,6 +46,7 @@ const exportedObj = [
   {
     "name": "HTML, CSS and JS Coding Quiz",
     "description": "Take a timed quiz on front-end development, and store previous highscores",
+    "skills": "",
     "githubRepo": "https://github.com/Yusen22/Coding_Quiz",
     "deployedApp": "https://yusen22.github.io/Coding_Quiz/",
     "screenshot": "./src/images/5_day_planner_app_screenshot.png",
@@ -51,6 +56,7 @@ const exportedObj = [
   {
     "name": "Daily Planner Application",
     "description": "Plan out the work day and save your diary with this colour-coded planner",
+    "skills": "",
     "githubRepo": "https://github.com/Yusen22/Planner_Application",
     "deployedApp": "https://yusen22.github.io/Planner_Application/",
     "screenshot": require("./images/planner-app-screenshot.gif")

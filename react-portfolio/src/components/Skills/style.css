@@ -1,0 +1,31 @@
+#skills-section {
+    background-color: #1a0810;
+    margin-top: 30vh;
+    
+}
+
+#skills-container {
+    width: 80%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+  grid-template-rows: 3fr 3fr 3fr;
+}
+
+#skills-title {
+    color: white !important;
+    font-size: 300%;
+    margin-bottom: 70px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+
+#skills-section p {
+    color: white;
+    font-size: 150%;
+}
+
+
+
