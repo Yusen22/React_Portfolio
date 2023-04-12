@@ -13,7 +13,7 @@ function Project(props) {
     <div className="card-body">
       <h5 className="card-title">{ name } </h5>
       <p className="card-text">{ description }</p>
-      <p className="card-text card-techs">`Technologies: { techs }`</p>
+      <p className="card-text card-techs">Technologies: { techs }</p>
       <a href= { deployedLink } className="btn btn-primary">Deployed Application</a>
       <a href= { repoLink } className="btn btn-primary">GitHub Repository </a>
     </div>

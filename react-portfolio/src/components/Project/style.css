@@ -28,12 +28,18 @@
 .project-card .card-title {
     color: white;
     font-size: 130% !important;
+    font-family: 'Dosis', sans-serif;
 }
 
 .project-card .card-text {
     color: #fed9d9;
     max-width: 70%;
     text-align: center;
+}
+
+.project-card .card-techs {
+    font-style: italic;
+    color: white;
 }
 
 .project-card a {
